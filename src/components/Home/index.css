@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+.bg-home-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.home-page-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 45px;
+}
+.home-page-para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.heading-para-container {
+  width: 52%;
+  padding: 15px;
+}
+
+.home-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-shopping {
+  width: 30%;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+  border: none;
+  font-weight: 800;
+  padding: 10px 15px 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .home-page-container {
+    flex-direction: column;
+  }
+  .heading-para-container {
+    width: 100%;
+  }
+  .home-image {
+    width: 80%;
+  }
+}
